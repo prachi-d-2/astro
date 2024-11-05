@@ -1,0 +1,73 @@
+/* src/pages/HomePage.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .intro-container {
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .featured-articles-container {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Add specific styles for your components as needed */
+  
+  .introduction {
+    background: linear-gradient(135deg, #4e4e6d, #1a1a2e);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+  }
+  
+  .introduction:hover {
+    transform: translateY(-5px);
+  }
+  
+  .featured-article {
+    background: #2a2a3b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .featured-article:hover {
+    transform: translateY(-5px);
+    background: #3b3b4f; /* Slightly lighter on hover */
+  }
+  

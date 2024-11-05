@@ -1,0 +1,26 @@
+/* src/components/Introduction.css */
+
+.introduction h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .introduction p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .get-started {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .get-started:hover {
+    background-color: #ff4747;
+  }
+  

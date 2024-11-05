@@ -1,0 +1,17 @@
+/* src/components/FeaturedArticles.css */
+
+.featured-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .featured-article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .featured-article p {
+    font-size: 1rem;
+  }
+  
